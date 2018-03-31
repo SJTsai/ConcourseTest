@@ -90,8 +90,8 @@
 		5E633BD62070448B00616A3A /* ConcourseTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				5E633BD72070448B00616A3A /* ConcourseTestTests.swift */,
 				5E633BD92070448B00616A3A /* Info.plist */,
+				5E633BD72070448B00616A3A /* ConcourseTestTests.swift */,
 			);
 			path = ConcourseTestTests;
 			sourceTree = "<group>";
