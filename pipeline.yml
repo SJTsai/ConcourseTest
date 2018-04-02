@@ -16,7 +16,7 @@ jobs:
       image_resource:
         type: docker-image
         source:
-          repository: fastlanetools/fastlane
+          repository: eddumelendez/fastlane
           tag: "latest" 
       run:
         path: sh
@@ -24,6 +24,7 @@ jobs:
         - -exc
         - |
           cd ConcourseTest
+          ls -la
           fastlane testLane
       inputs:
       - name: ConcourseTest

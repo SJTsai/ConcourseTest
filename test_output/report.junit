@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='ConcourseTestTests.xctest' tests='2' failures='1'>
-  <testsuite name='ConcourseTestTests.ConcourseTestTests' tests='2' failures='1'>
-    <testcase classname='ConcourseTestTests.ConcourseTestTests' name='testAFailure'>
-      <failure message='XCTAssertTrue failed - '>ConcourseTestTests/ConcourseTestTests.swift:19</failure>
-    </testcase>
-    <testcase classname='ConcourseTestTests.ConcourseTestTests' name='testTheThing' time='0.000'/>
-  </testsuite>
-</testsuites>
