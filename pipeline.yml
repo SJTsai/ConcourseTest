@@ -16,16 +16,17 @@ jobs:
       image_resource:
         type: docker-image
         source:
-          repository: eddumelendez/fastlane
-          tag: "latest" 
+          repository: rubygem/ambient-xcode
+          tag: "latest"
       run:
         path: sh
         args:
         - -exc
         - |
           cd ConcourseTest
-          pwd
-          ls -la
+          gem install fastlane
+          export LC_ALL=en_US.UTF-8
+          export LANG=en_US.UTF-8
           fastlane test
       inputs:
       - name: ConcourseTest
